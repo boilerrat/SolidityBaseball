@@ -77,14 +77,16 @@ gantt
 
 ```mermaid
 graph TD;
-    A[Frontend] -->|Web3| B[League Contract];
-    B --> C[Team NFTs];
-    B --> D[Player NFTs];
-    B --> E[Game Contracts];
-    B --> F[Treasury Contract];
-    C --> G[ERC-6551];
-    D --> H[ERC-6551];
-    F --> I[ERC20 Token];
+    A[Frontend] -->|Web3| B[Fantasy Contract];
+    B --> C[League Contracts]
+    C --> D[Rule Contracts]
+    D --> E[Team NFTs];
+    D --> F[Player NFTs];
+    D --> G[Game Contracts];
+    B --> H[Treasury Contract];
+    D --> I[ERC-6551];
+    D --> J[ERC-6551];
+    F --> K[ERC20 Token];
 ```
 
-Wha
+
