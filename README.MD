@@ -84,8 +84,8 @@ graph TD;
     D --> F[Player NFTs];
     D --> G[Game Contracts];
     B --> H[Treasury Contract];
-    D --> I[ERC-6551];
-    D --> J[ERC-6551];
+    F --> I[ERC-6551];
+    E --> J[ERC-6551];
     F --> K[ERC20 Token];
 ```
 
